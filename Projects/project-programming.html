@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programming Difficulties — Anjali Singh</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+
+    <nav id="navbar">
+        <div class="nav-container">
+            <a href="../index.html#about" class="nav-logo">AS</a>
+            <ul class="nav-links">
+                <li><a href="../index.html#about">About</a></li>
+                <li><a href="../index.html#research">Research</a></li>
+                <li><a href="../index.html#publications">Publications</a></li>
+                <li><a href="../index.html#contact">Contact</a></li>
+                <li><a href="../cv.pdf" class="nav-cv" target="_blank">CV ↗</a></li>
+            </ul>
+            <button class="nav-hamburger" aria-label="Toggle menu">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </nav>
+
+    <main class="project-page">
+        <div class="container">
+            <a href="../index.html#research" class="back-link">← Back to Research</a>
+
+            <div class="project-meta">
+                <span class="project-year">2024</span>
+                <span class="project-org">Microsoft</span>
+                <span class="project-org">University of Michigan</span>
+            </div>
+            <h1 class="project-page-title">Supporting Novice Data Science Learners</h1>
+            <p class="project-page-hook">This project explored novice data science learners' common errors and misconceptions, and built a feedback-generation system that automatically identifies what went wrong to deliver personalized hints, at scale.</p>
+
+
+            <aside class="project-page-visual">
+                    <!-- To use your own image: replace the <svg> below with <img src="your-image.jpg" alt="..."> -->
+                    <img src="../Images/DS_taxonomy.png" alt="data science errors taxonomy">
+                        <rect x="40" y="42"  width="140" height="9" rx="4" fill="#8a817c" opacity="0.22"/>
+                        <rect x="40" y="61"  width="100" height="9" rx="4" fill="#8a817c" opacity="0.22"/>
+                        <rect x="40" y="80"  width="160" height="9" rx="4" fill="#8a817c" opacity="0.22"/>
+                        <rect x="40" y="99"  width="185" height="13" rx="4" fill="#e0afa0" opacity="0.72"/>
+                        <rect x="236" y="95" width="64"  height="21" rx="10" fill="#e0afa0"/>
+                        <line x1="246" y1="102" x2="260" y2="102" stroke="#463f3a" stroke-width="1.5"/>
+                        <line x1="246" y1="107" x2="255" y2="107" stroke="#463f3a" stroke-width="1.2"/>
+                        <rect x="40" y="122" width="118" height="9" rx="4" fill="#8a817c" opacity="0.22"/>
+                        <rect x="40" y="141" width="85"  height="9" rx="4" fill="#8a817c" opacity="0.22"/>
+                        <rect x="40" y="160" width="135" height="9" rx="4" fill="#8a817c" opacity="0.22"/>
+                    </svg>
+                </aside>
+                <div class="project-details">
+                    <div class="project-section">
+                        <h4 class="detail-label">Methods</h4>
+                        <div class="method-flow">
+                            <div class="method-step">Analysis of programming logs + Qualitative analysis of incorrect submissions</div>
+                            <span class="method-arrow" aria-hidden="true">↓</span>
+                            <div class="method-step">Instructor interviews</div>
+                            <span class="method-arrow" aria-hidden="true">↓</span>
+                            <div class="method-step">Automatic feedback generation tool developed at Microsoft</div>
+                            <span class="method-arrow" aria-hidden="true">↓</span>
+                            <div class="method-step">Course Deployment at University of Michigan</div>
+                            <span class="method-arrow" aria-hidden="true">↓</span>
+                            <div class="method-step">Collected student feedback and shared with Microsoft</div>
+                        </div>
+                    </div>
+                    <div class="project-section">
+                        <h4 class="detail-label">My Contributions</h4>
+                        <ul class="impact-list">
+                        <li><span class="impact-stat">Bridged collaboration</span> between University of Michigan and Microsoft, <span class="impact-stat">led data sharing</span> and helped both teams understand each other's domains and methodologies.</li>
+                        <li>Worked with cross-functional team of engineers, product managers, and researchers at Microsoft to advance their understanding of online learning and data science pedagogy.</li>
+                        <li><span class="impact-stat">Developed taxonomy</span> of data science programming mistakes to enabled scalable, personalized support.</li>
+                        <li>Shared findings with executive stakeholders at Microsoft to help improve data science developer tools.</li>
+                        </ul>
+                    </div>
+                    <div class="project-section">
+                        <h4 class="detail-label">Impact</h4>
+                        <ul class="impact-list">
+                            <li><span class="impact-stat">Deployed across 2 semesters</span> of the Master of Applied Data Science program at the University of Michigan.</li>
+                            <li>Enabled real-time support on programming assignments, which was previously unavailable to asynchronous online learners in the program.</li>
+                        </ul>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://dl.acm.org/doi/abs/10.1145/3626252.3630884" target="_blank" class="project-link">Read the paper ↗</a>
+                    </div>
+                </div>
+                
+        </div>
+    </main>
+
+    <script src="../script.js"></script>
+</body>
+</html>

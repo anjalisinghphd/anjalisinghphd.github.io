@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learnersourcing — Anjali Singh</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+
+    <nav id="navbar">
+        <div class="nav-container">
+            <a href="../index.html#about" class="nav-logo">AS</a>
+            <ul class="nav-links">
+                <li><a href="../index.html#about">About</a></li>
+                <li><a href="../index.html#research">Research</a></li>
+                <li><a href="../index.html#publications">Publications</a></li>
+                <li><a href="../index.html#contact">Contact</a></li>
+                <li><a href="../cv.pdf" class="nav-cv" target="_blank">CV ↗</a></li>
+            </ul>
+            <button class="nav-hamburger" aria-label="Toggle menu">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </nav>
+
+    <main class="project-page">
+        <div class="container">
+            <a href="../index.html#research" class="back-link">← Back to Research</a>
+
+            <div class="project-meta">
+                <span class="project-year">2021–22</span>
+                <span class="project-org">University of Michigan</span>
+                <span class="project-org">Coursera</span>
+            </div>
+            <h1 class="project-page-title">Learnersourcing in a MOOC: Understanding Learner Motivations <span class="project-org" style="font-size:0.5em; vertical-align:middle; font-weight:700;">🏆 Best Paper — ACM Learning@Scale '22</span></h1>
+            <p class="project-page-hook">Learnersourcing is a pedagogically supported form of crowdsourcing where learners generate educational artifacts such as questions or hints through pedagogical engagement. Requiring learners to contribute can lead to low quality outcomes, while making it optional leads to contributions coming from a very small group of learners. This work explored giving students a choice between traditional learning vs. learnersourcing activities and investigated student motivations for engaging in learnersourcing through a large scale study with 3,661 real learners. </p>
+
+            <aside class="project-page-visual" style="width:80%;max-width:80%;margin:2rem auto;">
+                <img src="../Images/learnersourcing_workflow.png" alt="learnersourcing experiment setup" style="width:100%;height:auto;display:block;">
+            </aside>
+                <div class="project-details">
+                    <div class="project-section">
+                        <h4 class="detail-label">Methods</h4>
+                        <div class="method-flow">
+                            <div class="method-step">Led the development of LTI tool for learnersourcing multiple choice questions, answers, and explanations and integrated within Coursera for deployment in a MOOC</div>
+                            <span class="method-arrow" aria-hidden="true">↓</span>
+                            <div class="method-step">Conducted large scale RCT and surveys across 4 months exploring factors motivating learner engagement, and impact on learning outcomes and experience<span class="method-n">N = 3,661 MOOC learners</span></div>
+                            <span class="method-arrow" aria-hidden="true">↓</span>
+                            <div class="method-step">Leveraged causal analysis and survey data analysis to evaluate impact using metrics such as retention, performance, student output quality and perceived value</div>
+                        </div>
+                    </div>
+                    <div class="project-section">
+                        <h4 class="detail-label">Key Findings</h4>
+                        <ul class="impact-list"></ul>
+                        <p class="project-finding">Choice-based learnersourcing gives learners more agency and leads to higher quality outcomes as well as higher perceived value of engaging in learnersourcing. 
+                        </p>
+                    </div>
+                    <div class="project-section">
+                        <h4 class="detail-label">Impact</h4>
+                        <ul class="impact-list">
+                            <li>First of its kind large-scale experiment in a MOOC exploring student motivations and propensity to engage in learnersourcing.</li>
+                            <li>Provided design insights for learnersourcing in large scale learning contexts, such that learners find value in engaging in learnersourcing, while creating high quality learning resources for future learners.</li>
+                        </ul>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://dl.acm.org/doi/abs/10.1145/3430895.3460142" target="_blank" class="project-link">Read the paper ↗</a>
+                    </div>
+                </div>
+                
+        </div>
+    </main>
+
+    <script src="../script.js"></script>
+</body>
+</html>

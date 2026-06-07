@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visual Assessments — Anjali Singh</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+
+    <nav id="navbar">
+        <div class="nav-container">
+            <a href="../index.html#about" class="nav-logo">AS</a>
+            <ul class="nav-links">
+                <li><a href="../index.html#about">About</a></li>
+                <li><a href="../index.html#research">Research</a></li>
+                <li><a href="../index.html#publications">Publications</a></li>
+                <li><a href="../index.html#contact">Contact</a></li>
+                <li><a href="../cv.pdf" class="nav-cv" target="_blank">CV ↗</a></li>
+            </ul>
+            <button class="nav-hamburger" aria-label="Toggle menu">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </nav>
+
+    <main class="project-page">
+        <div class="container">
+            <a href="../index.html#research" class="back-link">← Back to Research</a>
+
+            <div class="project-meta">
+                <span class="project-year">2019</span>
+                <span class="project-org">IBM Research</span>
+                <span class="project-org">Sesame Street</span>
+            </div>
+            <h1 class="project-page-title">Automatic Generation of Visual Assessments for Early Childhood Learning</h1>
+            <p class="project-page-hook">This <strong>first of its kind industry collaboration</strong> brought together IBM Research and Sesame Workshop to build a cognitive vocabulary learning app for young children. As a Machine Learning research engineer, I worked alognside primary school teachers and early childhood learning experts to automatically generate picture-based quiz questions at varying difficulty levels. This project pioneered the use of AI to generate pedagogically appropriate visual assessments that adapt to each child's vocabulary range.</p>
+
+            <aside class="project-page-visual project-page-visual--narrow">
+                    <!-- To use your own image: replace the <svg> below with <img src="your-image.jpg" alt="..."> -->
+                    <img src="../Images/visual_assessments.png" alt="visual assessments">
+                </aside>
+                <div class="project-details">
+                    <div class="project-section">
+                        <h4 class="detail-label">Methods</h4>
+                        <div class="method-flow">
+                            <div class="method-step">Semi-structured interviews with primary school teachers to understand the process and challenges of creating visual multiple choice questions (MCQs) at varying difficulty levels</div>
+                            <span class="method-arrow" aria-hidden="true">↓</span>
+                            <div class="method-step">Developed a novel automated approach to generate visual MCQs — where answer options are presented as images — using an image corpus and a semantic network of curated vocabulary words connected by their relationships extracted from Children's Book Test database <span class="method-n">Leveraged image captioning, open information extraction, and neural embedding based semantic similarity matching</span></div>
+                            <span class="method-arrow" aria-hidden="true">↓</span>
+                            <div class="method-step">Contributed a novel metric for measuring semantic similarity between images, used to source and rank MCQ options at controlled difficulty levels</div>
+                            <!-- <span class="method-arrow" aria-hidden="true">↓</span>
+                            <div class="method-step">Integrated the system within IBM Watson's AI platform and deployed as part of the cognitive vocabulary learning app built in partnership with Sesame Workshop</div> -->
+                        </div>
+                    </div>
+                    <div class="project-section">
+                        <h4 class="detail-label">Key Findings</h4>
+                        <p class="project-finding">Creating visual MCQs at varying difficulty levels is highly time-consuming for educators, with sourcing pedagogically appropriate images consuming a lot of their time. Our approach automated this end-to-end, by <span class="impact-stat">developing technology that could automatically generate picture-based assessment questions</span> at well-calibrated difficulty levels without sacrificing pedagogical quality.</p>
+                    </div>
+                    <div class="project-section">
+                        <h4 class="detail-label">Impact</h4>
+                        <ul class="impact-list">
+                            <p class="project-finding">Contributed to <span class="impact-stat">industry's first cognitive vocabulary learning app</span> for young children, in collaboration between IBM Research and Sesame Workshop.</p>
+                            <!-- <li>Contributed to <span class="impact-stat">industry's first cognitive vocabulary learning app</span> for young children, in collaboration between IBM Research and Sesame Workshop.</li> -->
+                            <!-- <li>Pioneered <span class="impact-stat">AI-generated adaptive assessments</span> for early childhood learners — automatically determining a child's vocabulary range and personalizing their learning experience.</li> -->
+                            <!-- <li>Significantly reduced the <span class="impact-stat">time and effort required of educators</span> to create difficulty-varied visual assessments at scale.</li>
+                            <li>Published at <span class="impact-stat">AAAI/EAAI '19</span> — flagship AI conference, education track.</li> -->
+                        </ul>
+                    </div>
+                    <div class="project-section" style="border-top: 1px solid rgba(138, 129, 124, 0.2); padding-top: 28px; margin-top: 8px;">
+                        <h4 class="detail-label">Press</h4>
+                        <div class="project-links" style="border-top: none;">
+                            <a href="https://techcrunch.com/2017/06/07/sesame-workshop-and-ibm-team-up-to-test-a-new-a-i-powered-teaching-method/" class="project-link" target="_blank" rel="noopener">TechCrunch ↗</a>
+                            <a href="https://fortune.com/2017/06/06/sesame-street-workshop-ibm-watson/" class="project-link" target="_blank" rel="noopener">Fortune ↗</a>
+                            <a href="https://www.washingtonpost.com/news/the-switch/wp/2016/04/27/elmo-has-made-a-new-friend-ibms-watson/" class="project-link" target="_blank" rel="noopener">The Washington Post ↗</a>
+                        </div>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://ojs.aaai.org//index.php/AAAI/article/view/5038" target="_blank" class="project-link">Read the paper ↗</a>
+                    </div>
+                </div>
+                
+        </div>
+    </main>
+
+    <script src="../script.js"></script>
+</body>
+</html>
