@@ -774,15 +774,11 @@ img {
 
 .news-item {
     display: grid;
-    grid-template-columns: 90px 1fr;
+    grid-template-columns: 120px 1fr;
     gap: 24px;
     padding: 18px 0;
     border-bottom: 1px solid rgba(188, 184, 177, 0.35);
     align-items: baseline;
-}
-
-.news-item:first-child {
-    border-top: 1px solid rgba(188, 184, 177, 0.35);
 }
 
 .news-date {
