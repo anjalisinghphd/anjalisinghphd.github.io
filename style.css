@@ -445,7 +445,7 @@ img {
    RESEARCH SECTION
 ═══════════════════════════════════════════ */
 #research {
-    padding: var(--section-py) 0 calc(var(--section-py) + 40px);
+    padding: 40px 0 calc(var(--section-py) + 40px);
     background-color: var(--dark);
 }
 
